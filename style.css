@@ -1,0 +1,92 @@
+body {
+    background-color: #c63d2f;
+    color: #ffbb5c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    flex: 1; 
+    padding: 50px;
+    margin-left: 5%;
+}
+
+.main-title {
+    font-size: 85px;
+    padding-left: 100px;
+    padding-top: 20%;
+    font-weight: 550;
+}
+
+.main-title p {
+    line-height: 1;
+}
+
+#webdev {
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#portfolio {
+    font-size: 115px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 6%;
+}
+
+#creator {
+    padding-left: 100px;
+    margin-top: 0;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 32px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button-container {
+    padding-left: 100px;
+}
+
+#webdev-button {
+    border: none;
+    background-color: #ffbb5c;
+    color: #c63d2f;
+}
+
+#webdev-button:hover {
+    background-color: #a0362b;
+    border: solid 1px #ffbb5c;
+    color: #ffbb5c;
+}
+
+#about-button {
+    border: solid 1px #ffbb5c;
+    background-color: transparent;
+    color: #ffbb5c;
+    margin-left: 20px;
+}
+
+#about-button:hover {
+    background-color: #a0362b;
+    border: none;
+    color: #ffbb5c;
+    border: solid 1px #ffbb5c;
+}
+
+img {
+    max-width: 50%;
+    height: 300px;
+    padding-right: 15%;
+    padding-top: 15%;
+}
